@@ -22,9 +22,7 @@ public class MainActivity extends AppCompatActivity {
         mPictureList.add("http://img1.imgtn.bdimg.com/it/u=2539369344,2565018293&fm=26&gp=0.jpg");
         mPictureList.add("http://img1.imgtn.bdimg.com/it/u=2539369344,2565018293&fm=26&gp=0.jpg");
         mPictureList.add("http://img1.imgtn.bdimg.com/it/u=2539369344,2565018293&fm=26&gp=0.jpg");
-        mPictureList.add("http://img1.imgtn.bdimg.com/it/u=2539369344,2565018293&fm=26&gp=0.jpg");
-        mPictureList.add("http://img1.imgtn.bdimg.com/it/u=2539369344,2565018293&fm=26&gp=0.jpg");
-        mPictureList.add("http://img1.imgtn.bdimg.com/it/u=2539369344,2565018293&fm=26&gp=0.jpg");
+
         nineAdapter = new NineAdapter(MainActivity.this, mPictureList);
         nineGridView.setAdapter(nineAdapter);
         nineGridView.setSpace(10);
